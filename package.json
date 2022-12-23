@@ -1,18 +1,29 @@
 {
-  "name": "simsimi",
-  "version": "1.0.0",
+  "name": "node-simsimi",
+  "version": "1.0.1",
   "description": "Unofficial SimSimi API",
-  "main": "simsimi.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node .",
-    "prepare": "rm -rf dist && tsc"
+    "start": "node ."
   },
-  "keywords": ["SimSimi", "SimSimi API", "ChatAI"],
+  "keywords": [
+    "SimSimi",
+    "SimSimi API",
+    "ChatAI"
+  ],
   "author": "DrelezTM",
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^3.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrelezTM/node-simsimi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DrelezTM/node-simsimi/issues"
+  },
+  "homepage": "https://github.com/DrelezTM/node-simsimi#readme"
 }
