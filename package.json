@@ -1,11 +1,12 @@
 {
   "name": "node-simsimi",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "Unofficial SimSimi API",
   "main": "index.js",
-  "type": "module",
+  "engine": "18.7.5",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "build": "babel src -d lib"
   },
   "keywords": [
     "SimSimi",
@@ -14,10 +15,11 @@
   ],
   "author": "DrelezTM",
   "license": "MIT",
-  "dependencies": {
-    "node-fetch": "^3.3.0"
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DrelezTM/node-simsimi.git"
@@ -25,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/DrelezTM/node-simsimi/issues"
   },
-  "homepage": "https://github.com/DrelezTM/node-simsimi#readme"
+  "homepage": "https://github.com/DrelezTM/node-simsimi#readme",
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
 }
