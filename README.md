@@ -42,7 +42,7 @@
    main("Hii Simi!", "en");
    ```
 
-## Response
+## Response 📨
 * Example Response
   ```js
   {
