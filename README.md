@@ -18,29 +18,54 @@
  
  ## How to Use 🔭
  * With Asynchronous
-   ```js
-   const simSimi = require('node-simsimi');
+   * ESModule
+    ```js
+    import simSimi from 'node-simsimi';
    
-   async function main(message, language) {
-     const response = await simSimi(message, language);
-     console.log(response);
-   }
+    async function main(message, language) {
+      const response = await simSimi(message, language);
+      console.log(response);
+    }
    
-   main("Hii Simi!", "en");
-   ```
+    main("Hii Simi!", "en");
+    ```
+   * CommonJS
+    ```js
+    const simSimi = require('node-simsimi');
+   
+    async function main(message, language) {
+      const response = await simSimi(message, language);
+      console.log(response);
+    }
+   
+    main("Hii Simi!", "en");
+    ```
   
  * Without Asynchronous
-   ```js
-   const simSimi = require('node-simsimi');
+   * ESModule
+    ```js
+    import simSimi from 'node-simsimi';
+
+    function main(message, language) {
+      simSimi(message, language).then((response) => {
+        console.log(response);
+      });
+    }
    
-   function main(message, language) {
-     simSimi(message, language).then((response) => {
-       console.log(response);
-     });
-   }
+    main("Hii Simi!", "en");
+    ```
+   * CommonJS
+    ```js
+    const simSimi = require('node-simsimi');
+
+    function main(message, language) {
+      simSimi(message, language).then((response) => {
+        console.log(response);
+      });
+    }
    
-   main("Hii Simi!", "en");
-   ```
+    main("Hii Simi!", "en");
+    ```
 
 ## Response 📨
 * Example Response
@@ -57,7 +82,7 @@
   ```
 
 ## Built With 🛠
-* [Node-Fetch](https://www.npmjs.com/package/node-fetch)
+* [Axios](https://axios-http.com/docs/intro)
 
 ## Error or Bug 🐞
 * [Discord](https://dsc.gg/DrelezTM)
