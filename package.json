@@ -1,0 +1,18 @@
+{
+  "name": "simsimi",
+  "version": "1.0.0",
+  "description": "Unofficial SimSimi API",
+  "main": "simsimi.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "prepare": "rm -rf dist && tsc"
+  },
+  "keywords": ["SimSimi", "SimSimi API", "ChatAI"],
+  "author": "DrelezTM",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
