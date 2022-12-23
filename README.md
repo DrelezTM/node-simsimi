@@ -7,7 +7,7 @@
   <p>Unofficial <a href="https://simsimi.com">SimSimi</a> API <a href="https://nodejs.org">NodeJS</a><br>It's Free!</p>
 </div>
 <div align="center">
-  <a href="https://www.npmjs.com/package/node-simsimi">NPM</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/DrelezTM/StickerWhatsAppBOT/issues">Issues</a>
+  <a href="https://www.npmjs.com/package/node-simsimi">NPM</a> | <a href="https://github.com/DrelezTM/node-simsimi">Repository</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/DrelezTM/StickerWhatsAppBOT/issues">Issues</a>
 </div>
 
 ## Installation 📑
