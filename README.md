@@ -67,6 +67,29 @@
     main("Hii Simi!", "en");
     ```
 
+## Language 🏳
+* Language Support:
+  * id : Indonesian
+  * en : English
+  * vn : Vietnamese
+  * ph : Filipino
+  * zh : Chinese
+  * ch : Chamorro / Guam
+  * ru : Russian
+  * ko : Korean
+  * ar : Arabic
+  * ms : Malay
+  * fr : French
+  * ja : Japanese
+  * es : Spanish
+  * de : German
+  * pt : Portuguese
+  * ml : Malayalam
+  * si : Sinhala
+  * tr : Turkish
+* ⚠ Does not support other than languages/ISO 639-1 above
+
+
 ## Response 📨
 * Example Response
   ```js
