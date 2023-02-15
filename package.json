@@ -1,6 +1,6 @@
 {
   "name": "node-simsimi",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Unofficial SimSimi API",
   "main": "index.js",
   "engine": "18.7.5",
